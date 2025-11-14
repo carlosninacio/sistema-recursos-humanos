@@ -35,15 +35,15 @@ export default function AgregarEmpleado() {
             <form onSubmit={(e) => onSubmit(e)}>
                 <div className="mb-3">
                     <label htmlFor="nombre" className="form-label">Nombre</label>
-                    <input type="text" className="form-control" id="nombre" name="nombre" required={true} value={nombre} onChange={(e) => onInputChange()}/>
+                    <input type="text" className="form-control" id="nombre" name="nombre" required={true} value={nombre} onChange={(e) => onInputChange(e)}/>
                 </div>
                 <div className="mb-3">
                     <label htmlFor="departamento" className="form-label">Departamento</label>
-                    <input type="text" className="form-control" id="departamento" name="departamento" value={departamento} onChange={(e) => onInputChange()}/>
+                    <input type="text" className="form-control" id="departamento" name="departamento" value={departamento} onChange={(e) => onInputChange(e)}/>
                 </div>
                 <div className="mb-3">
                     <label htmlFor="sueldo" className="form-label">Sueldo</label>
-                    <input type="text" className="form-control" id="sueldo" name="sueldo" value={sueldo} onChange={(e) => onInputChange()}/>
+                    <input type="text" className="form-control" id="sueldo" name="sueldo" value={sueldo} onChange={(e) => onInputChange(e)}/>
                 </div>
                 <div className="text-center">
                     <button type="submit" className="btn btn-warning btn-sm me-3">Agregar</button>

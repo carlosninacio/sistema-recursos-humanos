@@ -1,4 +1,4 @@
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ListadoEmpleados from "./empleados/ListadoEmpleados";
 import Navegacion from "./plantilla/Navegacion";
 import AgregarEmpleado from "./empleados/AgregarEmpleado";

@@ -7,8 +7,8 @@ export default function ListadoEmpleados() {
                 <h3>Sistema de Recursos Humanos</h3>
             </div>
 
-            <table class="table">
-                <thead>
+            <table className="table table-striped table-hover align-middle">
+                <thead className="table-dark">
                     <tr>
                         <th scope="col">Id</th>
                         <th scope="col">Empleado</th>
